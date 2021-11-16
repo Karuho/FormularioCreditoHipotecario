@@ -1,0 +1,228 @@
+<html>
+
+<head>
+  <title>Postulación Crédito Hipotecario</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+  <script src="JS/Funciones.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <form name="formcredit" id="formcredit" onSubmit="return clear()">
+    <table class="table extborder" border="0" cellspacing="0" align="center" width="230">
+      <tr>
+        <td>
+          <table class="table" border="0" cellspacing="0" align="center" width="350">
+            <tr>
+              <td colspan="3" align="center">
+                <img src="https://blog.inversionfacil.com/hs-fs/hubfs/Co%CC%81mo%20repactar%20un%20cre%CC%81dito%20hipotecario-%20%C2%A1Paga%20menos%20en%203%20pasos!.png?width=1100&name=Co%CC%81mo%20repactar%20un%20cre%CC%81dito%20hipotecario-%20%C2%A1Paga%20menos%20en%203%20pasos!.png" width="330" alt="calculadora" height="150" align="center">
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" class="space2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="3"><b>
+                  <font size="3">Postulación a Crédito Hipotecario</font>
+                </b></td>
+            </tr>
+            <tr>
+              <td colspan="3" class="space">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Nombre</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+              <td width="120"><input class="box" type="text" name="name" onchange="valnombre()"></td>
+            <td>&nbsp;</td>
+            <td id="nombre">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Edad</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td>&nbsp;</td>
+              <td><input class="box2" type="text" name="age" onchange="valedad()"></td>
+            <td>&nbsp;</td>
+            <td id="mjeedad">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Estado Civil</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+              <td width="180"><select class="box" name="civilstatus" onchange="valestcivil()">
+                  <option value="-1">Seleccione</option>
+                  <option value="soltero">Soltero/a</option>
+                  <option value="casado">Casado/a</option>
+                  <option value="separado">Separado/a</option>
+                  <option value="divorciado">Divorciado/a</option>
+                </select>
+              </td>
+            <td>&nbsp;</td>
+            <td id="estcivil">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Sexo</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+              <td>
+                <input type="radio" name="sex" value="male">Hombre
+                <input type="radio" name="sex" value="female">Mujer
+              </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Rango Salario</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+              <td width="180"><input class="box" type="text" name="salary" onchange="valsalario()" placeholder="Ej:1000000"></td>
+            <td>&nbsp;</td>
+            <td id="rsalario">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Valor Propiedad</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+              <td width="180"><input class="box2" type="text" name="price" onchange="caldividendo()"><b> UF</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+           <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Años de Crédito</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+              <td width="180"><input class="box2" type="text" name="credit" onchange="caldividendo()"></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+           <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <table class="interbd" border="10" bgcolor="#FFFFFF" cellspacing="0">
+                        <tr>
+                          <th class="border">Valor Dividendo Mensual</th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="30">&nbsp;</td>
+             <td class="totaldividendo" width="180" name="dividend" id="totaldividendo">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="space" colspan="3">&nbsp;</td>
+            </tr>
+            <!--botones-->
+            <tr>
+              <th><input type="button" value="Validar" onclick="validate()"></th>
+              <td>&nbsp;</td>
+              <td><input type="reset" value="Limpiar"></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>

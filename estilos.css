@@ -1,0 +1,66 @@
+body {
+  color: #000;
+  font-family: roboto, tahoma, arial;
+  font-size: 13px;
+  background: url("https://www.efecty.com.ar/wp-content/uploads/2015/11/efecty-como-funciona.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.space {
+  padding: 12px;
+}
+
+.space2 {
+  padding: 8px;
+}
+
+.interbd {
+  border-top: #ffffff 5px solid;
+  border-left: #ffffff 5px solid;
+  border-right: #ffffff 5px solid;
+  border-bottom: #ffffff 5px solid;
+}
+
+.border {
+  color: #ffffff;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 7px;
+  line-height: 15px;
+  background-color: #e54f22;
+  width: 95px;
+}
+
+.table {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  border-width: 1px;
+  background-color: #ffffff;
+}
+
+.extborder {
+  padding: 40px;
+  line-height: 10px;
+}
+
+.box {
+  padding: 2px;
+  line-height: 1px;
+  width: 110px;
+  border-radius: 3px;
+}
+
+.box2 {
+  padding: 2px;
+  line-height: 1px;
+  width: 50px;
+  border-radius: 3px;
+}
+
+.totaldividendo{
+  color: red;
+  font-weight: bold;
+}
